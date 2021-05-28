@@ -11,7 +11,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     try:
         url = "mongodb://proj2cosmodb:MTYgw0J2gTKidkXGlh3oDPFAxcseJZBuyOamN8BxqJC9rKv6JvzlGWphsOqqwYDMCVK8TaWnqrCATm7jzlJ1dQ==@proj2cosmodb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@proj2cosmodb@"
-"  # TODO: Update with appropriate MongoDB connection information
+ # TODO: Update with appropriate MongoDB connection information
         client = pymongo.MongoClient(url)
         database = client['proj2appdb']
         collection = database['posts']
