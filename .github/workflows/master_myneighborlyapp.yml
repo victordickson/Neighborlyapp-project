@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'myneighborlyapp'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_8b425346bdae4679ad41b89838dee008 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_3be7a65941a74f86b4cc730340a5f830 }}
