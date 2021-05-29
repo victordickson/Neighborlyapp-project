@@ -46,7 +46,7 @@ def rss():
     fg = FeedGenerator()
     fg.title('Feed title')
     fg.description('Feed Description')
-    fg.link(href='https://myneighborlyapp.azurewebsites.net/')
+    fg.link(href='https://myproj2funcapp.azurewebsites.net/api/getnotes')
     
 
     response = requests.get(settings.API_URL + '/getAdvertisements')
