@@ -5,7 +5,7 @@ from flask_bootstrap import Bootstrap
 import settings
 import requests
 import json
-#from feedgen.feed import FeedGenerator
+from feedgen.feed import FeedGenerator
 from flask import make_response
 from urllib.parse import urljoin
 from werkzeug.contrib.atom import AtomFeed
@@ -43,10 +43,10 @@ def feeds():
 
 @app.route('/rss')
 def rss():
-    #fg = FeedGenerator()
+    fg = FeedGenerator()
     fg.title('Feed title')
     fg.description('Feed Description')
-    fg.link(href='https://myproj2funcapp.azurewebsites.net/api/')
+    fg.link(href='https://neighborly-client-v1.azurewebsites.net/')
     
 
     response = requests.get(settings.API_URL + '/getAdvertisements')
