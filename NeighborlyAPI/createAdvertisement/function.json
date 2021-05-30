@@ -6,9 +6,8 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "connection": "mymongodbconnectionstring",
       "methods": [
-        "get"
+        "delete"
       ]
     },
     {
