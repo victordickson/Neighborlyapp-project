@@ -6,8 +6,9 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
+      "connection": "mymongodbconnectionstring",
       "methods": [
-        "post"
+        "get"
       ]
     },
     {
