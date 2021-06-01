@@ -13,7 +13,7 @@ API_VERSION = 'v1'
 #-------- Azure constants
 
 #API_URL format: "https://proj2funcapp.azurewebsites.net"
-API_URL = "https://myproj2funcapp.azurewebsites.net/api/"
+API_URL = "https://myproj2funcapp.azurewebsites.net/"
 
 # for local host if Azure functions served locally
 #API_URL = "http://localhost:7071/api"
