@@ -6,7 +6,8 @@
       "name": "events",
       "direction": "in",
       "eventHubName": "myproj2eventhub",
-      "connection": "",
+      "connection": "Endpoint=sb://proj2events.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Xz5potJm7DZavJFPbkwFqpeZIJXurEB5EMTErhhgjhU="
+    },
       "cardinality": "many",
       "consumerGroup": "$Default",
       "dataType": "binary"
